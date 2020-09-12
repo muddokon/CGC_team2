@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 139803211}
   - component: {fileID: 139803210}
   m_Layer: 5
-  m_Name: Luchar
+  m_Name: BOTON-luchar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 367468514}
   - component: {fileID: 367468513}
   m_Layer: 5
-  m_Name: Tienda
+  m_Name: BOTON-tienda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -975,7 +975,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527445216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 386, z: -184.43532}
+  m_LocalPosition: {x: -1.709, y: -0.505, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 988558254}
@@ -1330,7 +1330,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988558253}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.78, y: -386.31, z: 184.43532}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 527445217}
@@ -1906,7 +1906,7 @@ GameObject:
   - component: {fileID: 2061213492}
   - component: {fileID: 2061213491}
   m_Layer: 5
-  m_Name: Sacar
+  m_Name: BOTON-sacar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
