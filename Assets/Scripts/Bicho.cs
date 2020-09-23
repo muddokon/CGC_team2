@@ -23,6 +23,14 @@ public class Bicho
     private Purities _purity;
     private Materials _material;
 
+    public Bicho(Families familyTop, Families familyBottom, Purities purity, Materials material)
+    {
+        _familyTop = familyTop;
+        _familyBottom = familyBottom;
+        _purity = purity;
+        _material = material;
+    }
+
     public Families FamilyTop
     {
         get => _familyTop;

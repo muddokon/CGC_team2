@@ -6,7 +6,16 @@ public class Player
     //primary attributes
     private string name;
     private int coins;
-    
+
+    public Player(string name, int coins, int coinBoost, int bichoBoost, int arenaBoost)
+    {
+        this.name = name;
+        this.coins = coins;
+        this.coinBoost = coinBoost;
+        this.bichoBoost = bichoBoost;
+        this.arenaBoost = arenaBoost;
+    }
+
     public string Name
     {
         get => name;
