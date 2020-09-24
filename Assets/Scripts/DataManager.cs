@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
@@ -21,7 +19,7 @@ public class DataManager : MonoBehaviour
 
     public void LoadGame()
     {
-        
+        //_player = JsonUtility.FromJson<Player>( new TextReader().);
     }
 
     public void SaveGame()
