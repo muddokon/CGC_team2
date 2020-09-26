@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(DataManager))]
 public class GameManager : MonoBehaviour
 {
     private DataManager _dataManager;
+
+    public Player player;
 
     private void Awake()
     {
