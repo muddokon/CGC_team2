@@ -3,7 +3,8 @@
 public class DataManager : MonoBehaviour
 {
     private Player _player;
-    private Bicho[] _bichos;
+    //private Bicho[] _bichos;
+    private BichoTop[] _bichos;
     
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,14 @@ public class DataManager : MonoBehaviour
 
     public void LoadGame()
     {
-        //_player = JsonUtility.FromJson<Player>( new TextReader().);
+        _player = JsonUtility.FromJson<Player>(TextReader.ReadString("Assets/Resources/player.txt")[0]);
+        var savedFile = TextReader.ReadString("Assets/Resources/bichos.txt");
+        var i = 0;
+        foreach (var savedBicho in savedFile)
+        {
+            _bichos[i] = JsonUtility.FromJson<BichoTop>(savedBicho);
+            i++;
+        }
     }
 
     public void SaveGame()

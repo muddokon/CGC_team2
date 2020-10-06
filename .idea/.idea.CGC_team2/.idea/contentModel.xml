@@ -13,6 +13,12 @@
             <e p="BichoTop.cs" t="Include" />
           </e>
         </e>
+        <e p="FortuneWheel" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="FortuneWheelManager.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="BGScroller.cs" t="Include" />
           <e p="Bicho.cs" t="Include" />
@@ -53,6 +59,10 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
+        </e>
+        <e p="Variables" t="Include">
+          <e p="FloatVariable.cs" t="Include" />
+          <e p="IntVariable.cs" t="Include" />
         </e>
       </e>
       <e p="CGC_team2.sln" t="IncludeFlat" />

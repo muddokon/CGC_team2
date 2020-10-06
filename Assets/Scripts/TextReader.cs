@@ -1,36 +1,37 @@
-﻿using UnityEngine;
-using UnityEditor;
+﻿using System;
+using UnityEngine;
 using System.IO;
 
 public class TextReader
 {
-    [MenuItem("Tools/Write file")]
-    public static void WriteString()
+    public static void WriteString(string path, string content)
     {
-        string path = "Assets/Resources/test.txt";
-
-        //Write some text to the test.txt file
+        //string path = "Assets/Resources/bichos.txt";
+        
         StreamWriter writer = new StreamWriter(path, true);
-        writer.WriteLine("Test");
-        writer.Close();
-
-        //Re-import the file to update the reference in the editor
-        AssetDatabase.ImportAsset(path); 
-        TextAsset asset = (TextAsset)Resources.Load("test");
-
-        //Print the text from the file
-        Debug.Log(asset.text);
+        try
+        {
+            writer.WriteLine(content);
+            Debug.Log("File saved!");
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e);
+            throw;
+        }
+        finally
+        {
+            writer.Close();
+        }
     }
-
-    [MenuItem("Tools/Read file")]
-    public static void ReadString()
+    public static string[] ReadString(string path)
     {
-        string path = "Assets/Resources/test.txt";
-
-        //Read the text from directly from the test.txt file
+        //string path = "Assets/Resources/bichos.txt";
+        
         StreamReader reader = new StreamReader(path); 
         Debug.Log(reader.ReadToEnd());
-        reader.Close();
+        string textRead = reader.ReadToEnd();
+        string[] lines = textRead.Split(System.Environment.NewLine.ToCharArray());
+        return lines;
     }
-
 }
