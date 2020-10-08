@@ -23,12 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maquina.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maquina.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaquinaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MaquinaManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,8 @@
         <option value="$PROJECT_DIR$/Assets/Variables/FloatVariable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonClick.cs" />
       </list>
     </option>
   </component>
@@ -116,6 +113,7 @@
       <workItem from="1601152300906" duration="336000" />
       <workItem from="1601510338584" duration="534000" />
       <workItem from="1601942221006" duration="3389000" />
+      <workItem from="1602114552357" duration="1300000" />
     </task>
     <servers />
   </component>

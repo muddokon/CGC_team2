@@ -19,13 +19,17 @@
             <e p="FortuneWheelManager.cs" t="Include" />
           </e>
         </e>
+        <e p="SceneLoader" t="Include">
+          <e p="LevelLoader.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="BGScroller.cs" t="Include" />
           <e p="Bicho.cs" t="Include" />
+          <e p="ButtonClick.cs" t="Include" />
           <e p="DataManager.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
-          <e p="LevelLoader.cs" t="Include" />
           <e p="MaquinaManager.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="TextReader.cs" t="Include" />
         </e>
