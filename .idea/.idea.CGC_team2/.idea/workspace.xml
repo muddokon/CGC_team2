@@ -21,9 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="27422096-7818-4baf-9876-3278eadec742" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/player.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/player.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bienvenida.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bienvenida.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +45,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bicho.cs" />
         <option value="$PROJECT_DIR$/Assets/Bichos/BichoTop.cs" />
         <option value="$PROJECT_DIR$/Assets/Bichos/BichosTop/BichoTop.cs" />
         <option value="$PROJECT_DIR$/Assets/Bichos/BichosBottom/BichoBottom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BGScroller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MaquinaManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Variables/IntVariable.cs" />
         <option value="$PROJECT_DIR$/Assets/Variables/FloatVariable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BienvenidaMnager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +118,8 @@
       <workItem from="1601152300906" duration="336000" />
       <workItem from="1601510338584" duration="534000" />
       <workItem from="1601942221006" duration="3389000" />
-      <workItem from="1602114552357" duration="1300000" />
+      <workItem from="1602114552357" duration="1512000" />
+      <workItem from="1602362561969" duration="3838000" />
     </task>
     <servers />
   </component>

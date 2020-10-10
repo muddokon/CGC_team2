@@ -3,10 +3,6 @@
 [Serializable]
 public class Player
 {
-    //primary attributes
-    private string name;
-    private int coins;
-
     public Player(string name, int coins, int coinBoost, int bichoBoost, int arenaBoost)
     {
         this.name = name;
@@ -16,6 +12,9 @@ public class Player
         this.arenaBoost = arenaBoost;
     }
 
+    //primary attributes
+    private string name;
+    private int coins;
     public string Name
     {
         get => name;

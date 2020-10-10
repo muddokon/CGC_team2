@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     {
         _dataManager = GetComponent<DataManager>();
     }
-
+    
+    
     // Start is called before the first frame update
     void Start()
     {
