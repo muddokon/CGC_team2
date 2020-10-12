@@ -9,6 +9,7 @@ public class BienvenidaMnager : MonoBehaviour
     public void registerNewUser()
     {
         _dataManager.CreatePlayer(userName.text);
+        Debug.Log("Creado jugador con nombre " + userName.text);
     }
     // Start is called before the first frame update
     void Start()

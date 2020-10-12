@@ -21,13 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="27422096-7818-4baf-9876-3278eadec742" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CGC_team2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/player.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/player.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bienvenida.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bienvenida.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bicho.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bicho.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BienvenidaMnager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BienvenidaMnager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaquinaManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaquinaManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextReader.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +45,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Bichos/BichosBottom/BichoBottom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaquinaManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,6 +63,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BienvenidaMnager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SQLiteHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Classes/Bicho.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Database/SQLiteHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataManager.cs" />
       </list>
     </option>
@@ -119,7 +126,8 @@
       <workItem from="1601510338584" duration="534000" />
       <workItem from="1601942221006" duration="3389000" />
       <workItem from="1602114552357" duration="1512000" />
-      <workItem from="1602362561969" duration="3838000" />
+      <workItem from="1602362561969" duration="3936000" />
+      <workItem from="1602463510914" duration="4173000" />
     </task>
     <servers />
   </component>
@@ -144,9 +152,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="23" key="RiderGenerateDialog" timestamp="1600304749063">
+    <state x="292" y="23" key="RiderGenerateDialog" timestamp="1602470770257">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="292" y="23" key="RiderGenerateDialog/0.23.1280.777@0.23.1280.777" timestamp="1600304749063" />
+    <state x="292" y="23" key="RiderGenerateDialog/0.23.1280.777@0.23.1280.777" timestamp="1602470770257" />
   </component>
 </project>

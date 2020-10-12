@@ -23,8 +23,17 @@ public class Bicho
     private Purities _purity;
     private Materials _material;
 
-    public Bicho(Families familyTop, Families familyBottom, Purities purity, Materials material)
+    public int ID
     {
+        get => _id;
+        set => _id = value;
+    }
+
+    private int _id;
+
+    public Bicho(int id, Families familyTop, Families familyBottom, Purities purity, Materials material)
+    {
+        _id = id;
         _familyTop = familyTop;
         _familyBottom = familyBottom;
         _purity = purity;
